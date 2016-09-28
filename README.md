@@ -2,16 +2,16 @@
 
 ## Problems Check-list
 
+* [ ] times_table 
 * [ ]
+* [ ] sevens 
 * [ ]
+* [ ] square_sum
 * [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
+* [ ] 
+* [ ] multiple_count
+* [ ] square_diff
+* [ ] 
 
 ## Notes
 
@@ -23,7 +23,7 @@ looks at iterating (sometimes referred to as 'looping') using a `for` loop, and 
 If I just want to repeat the same process multiple times, the syntax is very simple:
 
 ``` python
-for n in range(5):
+for i in range(5):
 	print("Hello world 5 times!")
 ```
 
@@ -32,7 +32,7 @@ anything following that and indented will be repeated.  Moving the indentation b
 python that we no longer want to loop things.
 
 ``` python
-for n in range(5):
+for i in range(5):
 	print("Hello world 5 times!")
 
 print("Bye just once, because it's not in the loop!")
@@ -41,16 +41,16 @@ print("Bye just once, because it's not in the loop!")
 ### Using the iteration variable
 
 What is actually happening when we iterate is a little more complex:
-  * A variable is created - this is what we specify in the `for n in` bit
-  * It sets the variable, in this case `n`, to the first number in our range.
-  * It carries out the instructions with that value of n.
+  * A variable is created - this is what we specify in the `for i in` bit
+  * It sets the variable, in this case `i`, to the first number in our range.
+  * It carries out the instructions with that value of `i`.
   * It then changes the variable to the next number in the range and then repeats.
 
 We can see this if we were to run:
 
 ``` python
->>> for n in range(5):
->>>		print(n)
+>>> for i in range(5):
+>>>		print(i)
 0
 1
 2
@@ -59,7 +59,7 @@ We can see this if we were to run:
 ```
 
 range(5) produces the numbers 0 to 4 (more on this later). The for loop goes through each
-of these numbers and runs the indented code with n set to that number; in this case, just
+of these numbers and runs the indented code with `i` set to that number; in this case, just
 printing it.
 
 
@@ -97,7 +97,7 @@ This can be achieved like so:
 
 ``` python
 count = 0
-for n in range(1, 11):
+for i in range(1, 11):
 	count = count + 1
 
 print(count)
