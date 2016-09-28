@@ -5,13 +5,11 @@
 * [ ] times_table 
 * [ ] countdown
 * [ ] sevens 
-* [ ]
+* [ ] odd_product
 * [ ] square_sum
-* [ ]
-* [ ] 
 * [ ] multiple_count
 * [ ] square_diff
-* [ ]  
+* [ ] loop_looper
 
 ## Notes
 
